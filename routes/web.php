@@ -25,3 +25,8 @@ Route::get('/dash', function () {
 Route::get('/index', function () {
     return view('LARAVEL_PROJECT.dashboards.index_dashboard');
 })->name('index-dash');
+
+
+Route::get('/admin',function(){
+    return view('admin');
+});
