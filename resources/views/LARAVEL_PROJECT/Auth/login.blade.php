@@ -55,6 +55,7 @@
       background: #dcfce7;
       color: #15803d;
     }
+    .footer-note{margin-top:8px;font-size:13px;color:var(--muted);text-align:center}
   </style>
 </head>
 <body>
@@ -79,6 +80,7 @@
       <input type="password" id="password" name="password" placeholder="Enter password" required>
 
       <button type="submit">Login</button>
+      <div class="footer-note">Already have an account! <a href="{{route('register')}}">Sign in</a></div>
     </form>
   </div>
 

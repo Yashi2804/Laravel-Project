@@ -105,7 +105,7 @@
 
       <div class="field">
         <label for="confirmPassword">Confirm Password</label>
-        <<input type="password" name="password_confirmation" placeholder="Confirm Password">
+        <input type="password" name="password_confirmation" placeholder="Confirm Password">
 
         <div id="confirmError" class="error" style="display:none"></div>
       </div>
@@ -114,7 +114,7 @@
         <button class="btn" type="submit">Register</button>
       </div>
 
-      <div class="footer-note">Already have an account? <a href="#">Log in</a></div>
+      <div class="footer-note">Already have an account? <a href="{{route('login')}}">Log in</a></div>
     </form>
   </main>
 
