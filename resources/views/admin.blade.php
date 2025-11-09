@@ -259,7 +259,7 @@
         <li>Settings</li>
       </ul>
     </div>
-    <div class="logout">Logout</div>
+    <button class="logout"><a href="{{route('logout')}}">Logout</a></button>
   </div>
 
   <div class="main" id="main">
