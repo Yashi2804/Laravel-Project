@@ -75,8 +75,8 @@
     <ul>
       <li><a href="#">About</a></li>
       <li><a href="#">Contact Us</a></li>
-      <li><a href="login.php">Login</a></li>
-      <li><a href="register.php">Register</a></li>
+      <li><a href="{{route('login')}}">Login</a></li>
+      <li><a href="{{route('register')}}">Register</a></li>
     </ul>
   </nav>
 </body>
@@ -112,7 +112,7 @@
     <div>
         <h1>Welcome to LearnX</h1>
         <p>Your gateway to learning and knowledge.</p>
-        <img src="Assests/img.jpg" alt="Learning Image" style="width:100%; border-radius:20px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);">
+        <img src="{{ asset('img/img.jpg') }}" alt="Learning Image" style="width:100%; border-radius:20px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);">
     </div>
 
 </body>

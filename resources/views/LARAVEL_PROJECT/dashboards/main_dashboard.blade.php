@@ -1,3 +1,5 @@
+
+
 @php
 session_start();
 @endphp
@@ -180,15 +182,15 @@ session_start();
     <a href="#">Dashboard</a>
     <a href="#">Course Progress</a>
     <a href="#">Profile</a>
-    <a href="logout.php">Logout</a>
+    <a href="{{route('logout')}}">Logout</a>
 </div>
 
 <div class="main-area">
     <div class="topbar">
-        <h1>Dear, {{ session('fname') }}</h1>
+        <h1>Dear, {{ session('user')->fname }}</h1>
         <div class="user-info">
             <span class="material-icons bell">notifications</span>
-       <img src="Assests/student.jpg" alt="Profile Photo" 
+       <img src="{{ asset('img/student.jpg') }}" alt="Profile Photo" 
      style="width:40px; height:40px; border-radius:50%; object-fit:cover;">
 
 
